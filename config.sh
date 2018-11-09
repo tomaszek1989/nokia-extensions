@@ -23,9 +23,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "      Extended your Nokia!     "
-  ui_print "*******************************"
+ ui_print "-------------------"
+ ui_print " Module by Akilesh "
+ ui_print "-------------------"
 }
 
 ##########################################################################################
@@ -96,7 +96,10 @@ install_module() {
 		abort "   => Android version '"$RELEASE"' is not supported"
 	fi
 	
-	ui_print "   => Your device is compatible. "
+	ui_print " Your device is compatible. "
 	ui_print " "
+	ui_print "*******************************"
+        ui_print "      Extended your Nokia!     "
+        ui_print "*******************************"
 
 }

@@ -59,3 +59,43 @@ set_permissions() {
   set_perm_recursive  $MODPATH  0  0  0755  0644
 }
 
+##########################################################################################
+# Custom Functions
+##########################################################################################
+
+# This file (config.sh) will be sourced by the main flash script after util_functions.sh
+# If you need custom logic, please add them here as functions, and call these functions in
+# update-binary. Refrain from adding code directly into update-binary, as it will make it
+# difficult for you to migrate your modules to newer template versions.
+# Make update-binary as clean as possible, try to only do function calls in it.
+
+install_module() {
+
+	ui_print "_____________________________________"
+	ui_print " "
+	ui_print "Trying to install Nokia Extensions..."
+	
+	DEVICE=`getprop ro.product.device`
+	RELEASE=`getprop ro.build.version.release`
+	BRAND=`getprop ro.product.brand`
+	ui_print " "
+
+	
+	ui_print " Performing compatibility check"
+	ui_print " "
+  ui_print "  Brand is: "$BRAND
+	ui_print "  Device is: "$DEVICE
+	ui_print "  Android version is: "$RELEASE
+	ui_print " "
+	
+	if [ $BRAND != "Nokia" ] || [ $BRAND != "FIH" ]; then
+		abort "   => Brand '"$BRAND"' is not supported"
+	fi
+	
+	if [ $RELEASE != "8.1.0" ] ; then
+		abort "   => Android version '"$RELEASE"' is not supported"
+	fi
+	
+	ui_print "   => Your device is compatible. "
+	ui_print " "
+

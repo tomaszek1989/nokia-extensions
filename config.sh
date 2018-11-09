@@ -83,9 +83,9 @@ install_module() {
 	
 	ui_print " Performing compatibility check"
 	ui_print " "
-  ui_print "  Brand is: "$BRAND
-	ui_print "  Device is: "$DEVICE
-	ui_print "  Android version is: "$RELEASE
+        ui_print "  Brand : "$BRAND
+	ui_print "  Device : "$DEVICE
+	ui_print "  Android version : "$RELEASE
 	ui_print " "
 	
 	if [ $BRAND != "Nokia" ] || [ $BRAND != "FIH" ]; then

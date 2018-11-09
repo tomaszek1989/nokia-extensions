@@ -99,3 +99,4 @@ install_module() {
 	ui_print "   => Your device is compatible. "
 	ui_print " "
 
+}

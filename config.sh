@@ -88,7 +88,7 @@ install_module() {
 	ui_print "  Android version : "$RELEASE
 	ui_print " "
 	
-	if [ $BRAND != "Nokia" ] || [ $BRAND != "FIH" ]; then
+	if [ $BRAND != "Nokia" ] && [ $BRAND != "FIH" ]; then
 		abort "   => Brand '"$BRAND"' is not supported"
 	fi
 	

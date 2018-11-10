@@ -1,7 +1,7 @@
 id=nokia-extensions
 name=Nokia Extensions
-version=v1
-versionCode=1
+version=v1.1
+versionCode=11
 author=Akilesh
 description=This module aims at bringing/porting features from the Chinese variants of Nokia phones to Global variants
 minMagisk=17000

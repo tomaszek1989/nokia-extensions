@@ -36,9 +36,9 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 </ul>  
 
 ### ⭐ Changelog 
-1. V1
+1. v1
   * Initial release
 
-2. V1.1
+2. v1.1
   * Added more features - Screenshot plus, Screen Recorder, System dashboard
   

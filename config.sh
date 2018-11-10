@@ -84,7 +84,7 @@ install_module() {
 	
 	ui_print "Performing compatibility check..."
 	ui_print " "
-    ui_print "  Brand           : "$BRAND
+        ui_print "  Brand           : "$BRAND
 	ui_print "  Device          : "$DEVICE
 	ui_print "  Android version : "$RELEASE
 	ui_print " "
@@ -100,9 +100,9 @@ install_module() {
 	ui_print "   Your device is compatible   "
 	ui_print " "
 	ui_print "*******************************"
-    ui_print "      Extended your Nokia!     "
-    ui_print "*******************************"
-    ui_print " "
+        ui_print "      Extended your Nokia!     "
+        ui_print "*******************************"
+        ui_print " "
 
     
 }

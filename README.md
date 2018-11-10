@@ -26,7 +26,6 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 
 #### 6. System Dashboard
   * Junk Cleaner
-  * Smart Boost
   * Task Manager
   * Virus scan
 

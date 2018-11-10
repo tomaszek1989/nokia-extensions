@@ -16,7 +16,7 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
   * I'm working on adding support for more apps.      
 
 #### 3. Data speed indicator
-   * Tested and working on Nokia 6, Nokia 8 and Nokia 7 plus on Oreo. Currently, it doesn't work on Pie. Pie support will be added soon. After installation, go to Settings - Network & Internet - Data Usage and toggle Show data speed. Now you should be able to see your internet speed on your status bar.
+   * Tested and working on Nokia 6, Nokia 8 and Nokia 7 plus on Oreo. After installation, go to Settings - Network & Internet - Data Usage and toggle Show data speed. Now you should be able to see your internet speed on your status bar.
    
 #### 4. Screenshot Plus
   * Take long screenshots, edit them on the go.
@@ -36,7 +36,7 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 ## ⭐ Compatibility
   * [![Nokia Phones](https://img.shields.io/badge/Nokia-Android%20phones-blue.svg)](https://www.nokia.com/phones/en_int)
   * [![Magisk](https://img.shields.io/badge/Magisk-17%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
-  * [![Android Oreo+](https://img.shields.io/badge/Oreo-8.0+-blue.svg)](https://www.android.com/versions/oreo-8-0/)
+  * [![Android Oreo](https://img.shields.io/badge/Oreo-8.1.0-blue.svg)](https://www.android.com/versions/oreo-8-0/)
 
 ## ⭐ Changelog 
 1. v1

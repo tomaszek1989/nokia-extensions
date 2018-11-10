@@ -15,6 +15,18 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 
 #### 3. Data speed indicator
    * Tested and working on Nokia 6, Nokia 8 and Nokia 7 plus on Oreo. Currently, it doesn't work on Pie. Pie support will be added soon. After installation, go to Settings - Network & Internet - Data Usage and toggle Show data speed. Now you should be able to see your internet speed on your status bar.
+   
+#### 4. Screenshot Plus
+  * Take long screenshots, edit them on the go.
+  
+#### 5. Screen Recorder
+  * Supports FHD, HD and SD at 30 and 60 FPS, records audio too.
+
+#### 6. System Dashboard
+  * Junk Cleaner
+  * Smart Boost
+  * Task Manager
+  * Virus scan
 
 ### ⭐ Compatibility
 <ul>
@@ -26,5 +38,7 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 ### ⭐ Changelog 
 1. V1
   * Initial release
-  
+
+2. V1.1
+  * Added more features - Screenshot plus, Screen Recorder, System dashboard
   

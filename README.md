@@ -46,3 +46,7 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
   * Added more features - Screenshot plus, Screen Recorder, System dashboard
   * Added NokiaPure fonts
   
+3. v1.2
+  * Added smart boost 
+  * fixed some FCs
+  

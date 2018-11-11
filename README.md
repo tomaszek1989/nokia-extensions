@@ -24,7 +24,7 @@ This module aims at bringing/porting features from the Chinese variants of Nokia
 #### 5. Screen Recorder
   * Supports FHD, HD and SD at 30 and 60 FPS, records audio too.
 
-#### 6. System Dashboard
+#### 6. Smart Tuner
   * Junk Cleaner
   * Task Manager
   * Smart Boost

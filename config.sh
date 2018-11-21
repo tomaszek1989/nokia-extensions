@@ -451,7 +451,7 @@ install_module() {
 
             ui_print "  - Installing Junk Cleaner..."
             JC_APK=$INSTALLER/$RELEASE/priv-app/JunkCleaner/JunkCleaner.apk
-            JC_APK_O=$INSTALLER/$RELEASE/product/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
+            JC_APK_O=$INSTALLER/$RELEASE/product/overlay/com.evenwell.memorycleaner.overlay.base.600WW.apk
             JC_APK_L1=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libdce-1.1.18-mfr.so
             JC_APK_L2=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libTmsdk-2.0.10-mfr.so
             mkdir -p $MODPATH/system/priv-app/JunkCleaner 2>/dev/null

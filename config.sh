@@ -399,10 +399,10 @@ install_module() {
             ui_print " "
             ui_print "* Installing Data Speed Indicator..."	
             DS_APK=$INSTALLER/$RELEASE/priv-app/DataSpeedIndicator/DataSpeedIndicator.apk
-            DS_APK_O=$INSTALLER/$RELEASE/product/overlay/600WW/com.evenwell.dataspeedindicator.overlay.base.600WW.apk
+            DS_APK_O=$INSTALLER/$RELEASE/product/overlay/com.evenwell.dataspeedindicator.overlay.base.600WW.apk
             mkdir -p $MODPATH/system/priv-app/DataSpeedIndicator/ 2>/dev/null
             cp -af $DS_APK $MODPATH/system/priv-app/DataSpeedIndicator/DataSpeedIndicator.apk
-            cp -af $DS_APK_O $MODPATH/system/product/overlay/600WW/com.evenwell.dataspeedindicator.overlay.base.600WW.apk
+            cp -af $DS_APK_O $MODPATH/system/product/overlay/com.evenwell.dataspeedindicator.overlay.base.600WW.apk
             ui_print "  done!"
         else
             ui_print " " 
@@ -426,10 +426,10 @@ install_module() {
             ui_print " "
         	ui_print "* Installing Screen Recorder..."
             SR_APK=$INSTALLER/$RELEASE/product/CDA/items/ScreenRecorder/ScreenRecorder.apk
-            SR_APK_O=$INSTALLER/$RELEASE/product/overlay/600WW/com.nbc.android.screenrecord.overlay.base.600WW.apk
+            SR_APK_O=$INSTALLER/$RELEASE/product/overlay/com.nbc.android.screenrecord.overlay.base.600WW.apk
             mkdir -p $MODPATH/system/product/CDA/items/ScreenRecorder 2>/dev/null
             cp -af $SR_APK $MODPATH/system/priv-app/ScreenRecorder/ScreenRecorder.apk
-            cp -af $SR_APK_O $MODPATH/system/product/overlay/600WW/com.nbc.android.screenrecord.overlay.base.600WW.apk
+            cp -af $SR_APK_O $MODPATH/system/product/overlay/com.nbc.android.screenrecord.overlay.base.600WW.apk
             ui_print "  done!"
 
         else
@@ -443,10 +443,10 @@ install_module() {
 
             ui_print "  - Installing System Dashboard..."
             ST_APK=$INSTALLER/$RELEASE/priv-app/SystemDashboard/SystemDashboard.apk
-            SS_APK_O=$INSTALLER/$RELEASE/product/overlay/600WW/com.evenwell.systemdashboard.mobileassistant.overlay.base.600WW.apk
+            SS_APK_O=$INSTALLER/$RELEASE/product/overlay/com.evenwell.systemdashboard.mobileassistant.overlay.base.600WW.apk
             mkdir -p $MODPATH/system/priv-app/SystemDashboard 2>/dev/null
             cp -af $SS_APK $MODPATH/system/priv-app/SystemDashboard/SystemDashboard.apk
-            cp -af $SS_APK_O $MODPATH/system/product/overlay/600WW/com.evenwell.systemdashboard.mobileassistant.overlay.base.600WW.apk
+            cp -af $SS_APK_O $MODPATH/system/product/overlay/com.evenwell.systemdashboard.mobileassistant.overlay.base.600WW.apk
             ui_print "    done!"
 
             ui_print "  - Installing Junk Cleaner..."
@@ -457,7 +457,7 @@ install_module() {
             mkdir -p $MODPATH/system/priv-app/JunkCleaner 2>/dev/null
             mkdir -p $MODPATH/system/priv-app/JunkCleaner/lib/arm64 2>/dev/null 
             cp -af $JC_APK $MODPATH/system/priv-app/JunkCleaner/JunkCleaner.apk
-            cp -af $JC_APK_O $MODPATH/system/product/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
+            cp -af $JC_APK_O $MODPATH/system/product/overlay/com.evenwell.memorycleaner.overlay.base.600WW.apk
             cp -af $JC_APK_L1 $MODPATH/system/priv-app/JunkCleaner/lib/arm64/libdce-1.1.18-mfr.so
             cp -af $JC_APK_L2 $MODPATH/system/priv-app/JunkCleaner/lib/arm64/libTmsdk-2.0.10-mfr.so
             ui_print "    done!"

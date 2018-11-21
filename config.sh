@@ -265,8 +265,8 @@ install_module() {
         	ui_print "* Installing Screen Recorder..."
             SR_APK=$INSTALLER/$RELEASE/priv-app/ScreenRecorder/ScreenRecorder.apk
             SR_APK_O=$INSTALLER/$RELEASE/vendor/cust/overlay/600WW/com.nbc.android.screenrecord.overlay.base.600WW.apk
-            SR_APK_OD=$INSTALLER/#RELEASE/priv-app/ScreenRecorder/oat/arm64/ScreenRecorder.odex
-            SR_APK_VD=$INSTALLER/#RELEASE/priv-app/ScreenRecorder/oat/arm64/ScreenRecorder.vdex
+            SR_APK_OD=$INSTALLER/$RELEASE/priv-app/ScreenRecorder/oat/arm64/ScreenRecorder.odex
+            SR_APK_VD=$INSTALLER/$RELEASE/priv-app/ScreenRecorder/oat/arm64/ScreenRecorder.vdex
             mkdir -p $MODPATH/system/app/ScreenRecorder 2>/dev/null
             mkdir -p $MODPATH/system/app/ScreenRecorder/oat/arm64 2>/dev/null
             cp -af $SR_APK $MODPATH/system/priv-app/ScreenRecorder/ScreenRecorder.apk
@@ -294,7 +294,7 @@ install_module() {
 
             ui_print "  - Installing Junk Cleaner..."
             JC_APK=$INSTALLER/$RELEASE/priv-app/JunkCleaner/JunkCleaner.apk
-            JC_APK_O=#INSTALLER/$RELEASE/vendor/cust/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
+            JC_APK_O=$INSTALLER/$RELEASE/vendor/cust/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
             JC_APK_L1=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libdce-1.1.16-mfr.so
             JC_APK_L2=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libTmsdk-2.0.10-mfr.so
             mkdir -p $MODPATH/system/priv-app/JunkCleaner 2>/dev/null
@@ -355,7 +355,7 @@ install_module() {
         	ui_print "Changing system font to NokiaPure..."
             NP_B=$INSTALLER/$RELEASE/fonts/Roboto-Bold.ttf
             NP_I=$INSTALLER/$RELEASE/fonts/Roboto-Italic.ttf
-            NP_BI=#INSTALLER/$RELEASE/fonts/Roboto-BoldItalic.ttf
+            NP_BI=$INSTALLER/$RELEASE/fonts/Roboto-BoldItalic.ttf
             NP_R=$INSTALLER/$RELEASE/fonts/Roboto-Regular.ttf
             cp -af $NP_B $MODPATH/system/fonts/Roboto-Bold.ttf
             cp -af $NP_I $MODPATH/system/fonts/Roboto-Italic.ttf
@@ -386,7 +386,7 @@ install_module() {
             mkdir -p $MODPATH/system/product/CDA/items/AIFloatingTouch 2>/dev/null
             cp -af $AI_APK $MODPATH/system/priv-app/AIFloatingTouch/AIFloatingTouch.apk
 
-            IS_APK=$INSTALLER/$RELEASE/product/CDA?items/IntelligentSuggestion/IntelligentSuggestion.apk
+            IS_APK=$INSTALLER/$RELEASE/product/CDA/items/IntelligentSuggestion/IntelligentSuggestion.apk
             mkdir -p $MODPATH/system/product/CDA/items/IntelligentSuggestion 2>/dev/null
             cp -af $IS_APK $MODPATH/system/priv-app/IntelligentSuggestion/IntelligentSuggestion.apk
             ui_print "  done!"
@@ -451,7 +451,7 @@ install_module() {
 
             ui_print "  - Installing Junk Cleaner..."
             JC_APK=$INSTALLER/$RELEASE/priv-app/JunkCleaner/JunkCleaner.apk
-            JC_APK_O=#INSTALLER/$RELEASE/product/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
+            JC_APK_O=$INSTALLER/$RELEASE/product/overlay/600WW/com.evenwell.memorycleaner.overlay.base.600WW.apk
             JC_APK_L1=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libdce-1.1.18-mfr.so
             JC_APK_L2=$INSTALLER/$RELEASE/priv-app/JunkCleaner/lib/arm64/libTmsdk-2.0.10-mfr.so
             mkdir -p $MODPATH/system/priv-app/JunkCleaner 2>/dev/null
@@ -512,7 +512,7 @@ install_module() {
         	ui_print "Changing system font to NokiaPure..."
             NP_B=$INSTALLER/$RELEASE/fonts/Roboto-Bold.ttf
             NP_I=$INSTALLER/$RELEASE/fonts/Roboto-Italic.ttf
-            NP_BI=#INSTALLER/$RELEASE/fonts/Roboto-BoldItalic.ttf
+            NP_BI=$INSTALLER/$RELEASE/fonts/Roboto-BoldItalic.ttf
             NP_R=$INSTALLER/$RELEASE/fonts/Roboto-Regular.ttf
             cp -af $NP_B $MODPATH/system/fonts/Roboto-Bold.ttf
             cp -af $NP_I $MODPATH/system/fonts/Roboto-Italic.ttf
